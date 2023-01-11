@@ -4,11 +4,11 @@ import platform
 
 def borrar():
     so=platform.system()
-    windows="windows"
-    linux="linux"
+    windows="Windows"
+    linux="Linux"
     if so == windows:
         os.system("cls")
-    elif so == linux:
+    else:
         os.system("clear")
 
 #presentacion
